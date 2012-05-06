@@ -1,0 +1,35 @@
+\documentclass[10pt, a4paper]{moderncv}
+\moderncvtheme[grey]{classic}
+
+
+\usepackage[utf8]{inputenc} % character encoding
+%\usepackage[top=2.5cm, bottom=2.5cm, left=3cm, right=3cm]{geometry}
+\usepackage[scale=0.8]{geometry} % adjust the page margins
+
+\AtBeginDocument{\setlength{\maketitlenamewidth}{10cm}}
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+\newcommand\mybitem[1]{%
+   \parbox[t]{2mm}{}\parbox[t]{14cm}{#1}\\}
+
+\firstname{Anuvrat}
+\familyname{Parashar}
+\title{CS Graduate, Lnux Geek, Foss Enthusiast}
+%%\address{Room 203A, Hostel 2} {Amity University, Sector 125, Noida}
+\mobile{+91-9910589350}
+\email{anuvrat@anuvrat.in}
+\homepage{anuvratparashar.com}
+
+\begin{document}
+
+\maketitle
+\input{objective.tex}
+\input{education.tex}
+\input{skillset.tex}
+\input{workex.tex}
+\input{projects.tex}
+\input{eventsAndTalks.tex}
+\input{hobbiesAndInterests.tex}
+\input{personalDetails.tex}
+
+\end {document}
